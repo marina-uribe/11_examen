@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SitioWeb</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Baskervville|Fira+Sans:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+        <style type="text/css">
+            *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+           }
+         img{
+               width: 100%;
+           }
+        body{
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 10px;
+            }
+        .contenidor{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            flex-grow: 5;
+            
+           }
+        h1{
+            color: pink;
+            padding: 2em 3em;
+            margin-bottom: 6em;
+            }
+        nav{
+            display: flex;
+            flex-direction: row;
+            flex-grow: 5;
+            float: right;
+            color: pink;
+            font-size: 10px;
+            margin-right: 2em;
+            }
+        .cont_txt1{
+            font-family: 'Baskervville', serif;
+            font-size: 300px;
+            color: pink;
+            margin-bottom: 1em;
+            text-align: center;
+            width: 100%;
+            padding: 20px 0 20px 0;
+            }
+            .container{
+                display: grid;
+                overflow: hidden;
+            }
+        .cont_img1{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            margin: 5em;
+            height: 100vh;
+            opacity: 1;
+            transition: 2s opacity;
+            }
+        .cont_img1:hover{
+             opacity: 0.5;
+            }
+        .cont_img2{
+            flex-direction: column;
+            margin-right: 5em;
+            float: right;
+            width: 45%;
+           
+            opacity: 1;
+            transition: 2s opacity;
+            }
+        .cont_img2:hover{
+             opacity: 0.5;
+            }
+        .cont_img3{
+            flex-direction: column;
+            width: 45%;
+            opacity: 1;
+            float: right;
+            margin-right: 5em;
+            transition: 2s opacity;}
+        .cont_img3:hover{
+             opacity: 0.5;
+            }
+             .cont_txt2{
+            font-family: 'Fira Sans', sans-serif;
+               position: absolute;
+               top: 50%;
+               width: 100%;
+               padding: 4em 3em;
+               color: white;
+                 z-index: 1;}
+            
+     footer{
+               padding: 2em 3em;
+               display: flex;
+           }
+           .colum1{
+               margin: 2em;
+               width: 50%;
+               font-size: 10px;
+           }
+           .colum2{
+               width: 30%;
+           }
+           .colum3{
+               width: 20%;}
+            
+        
+        </style>
+    </head>
+    <body>
+       <header>
+          <div class="contenidor">
+           <h1>We are a brand experience design company.  We partner with clients to help them connect with their audiences through outstanding products, experiences, and environments.  We do it through our unique design “with a point of view” approach.  We believe that enriching product experiences with a sense of style always delivers business results.</h1>
+           </div>
+       </header> 
+       <nav>
+           <div class="navegation">
+            <a href="#">Work</a>
+            <a href="#">Inspo</a>
+            <a href="#">About</a>
+           </div>
+                </nav>
+        <main>
+            <section>
+                <div class="cont_txt1"><h2>Dothing</h2></div>
+                </section>
+                <div class="container">
+                <figure>
+                    <div class="cont_img1">
+                        <img src="img/dothings.jpg">
+                    </div>
+                    <header>
+                        <div class="cont_txt">
+                        <p>Corcoran Rebranding</p>
+                        <p>The Referending Touch</p>
+                        </div>
+                        </header>
+                </figure>
+                <figure>
+                    <div class="cont_img2">
+                        <img src="img/vote.jpg">
+                    </div>
+                    <header>
+                       <div class="cont_txt2">
+                        <p>Vote</p>
+                        <p>If you Can, You Should</p>
+                        </div>
+                        </header>
+                </figure>
+                <figure>
+                    <div class="cont_img3">
+                        <img src="img/TomFord.gif">
+                    </div>
+                    <header>
+                       <div class="cont_txt">
+                        <p>Tom Ford</p>
+                    </div>
+                        </header>
+                </figure>
+                </div>
+        </main> 
+        <footer>
+              <div class="colum1">
+                <p>61 Greenponit Ave, Suite #306</p>
+                <p>Brooklyn NY 11222</p>
+                <p>hello@dothingsnyc.com</p>
+            </div>
+            <div class="colum2">
+               <p>Get in touch</p>
+                <p>Intagram</p>
+                <p>Linkedin</p>
+            </div>
+            <div class="colum3">
+                <p>Dothings 2019</p>
+                <i class="fab fa-facebook-f"></i>
+
+            </div>
+        </footer> 
+    </body>
+</html>
